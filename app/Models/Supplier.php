@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Supplier extends Model
 {
-    protected $table = 'supplier';
+    protected $table = 'suppliers';
     protected $fillable = [
         'supplier_name',
         'contact_number'
